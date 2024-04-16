@@ -30,7 +30,7 @@ def buscar_e_salvar_pagina_com_nome(nome_arquivo_pdf, nome_a_buscar, diretorio_s
 
 diretorio_pdfs= pesqdiretorio
 nome_a_buscar = busca_nome
-diretorio_saida = r"C:\Users\Admin\Desktop\PUSH FICHA FINACEIRAS\saida"
+diretorio_saida = r"Caminho"
 
 
 for ano in range(ano_inicio, ano_fim+1):
