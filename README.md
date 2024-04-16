@@ -32,12 +32,13 @@ def buscar_e_salvar_pagina_com_nome(nome_arquivo_pdf, nome_a_buscar, diretorio_s
     ...
 
 # Diretório onde os arquivos PDF estão e nome a buscar
+```
 diretorio_pdfs = input("Diretório dos arquivos: ")
 nome_a_buscar = input("Matricula ou Nome: ")
 ano_inicio = int(input("Início: "))
 ano_fim = int(input("Fim: "))
 diretorio_saida = r"C:\Users\Admin\Desktop\PUSH FICHA FINACEIRAS\saida"
-
+```
 # Loop para buscar nos arquivos PDF de cada ano no intervalo especificado
 for ano in range(ano_inicio, ano_fim+1):
     nome_arquivo_pdf = os.path.join(diretorio_pdfs, f"{ano}.pdf")
