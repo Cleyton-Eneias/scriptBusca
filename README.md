@@ -30,7 +30,6 @@ import os
 
 # Função para buscar e salvar páginas com o nome especificado
 def buscar_e_salvar_pagina_com_nome(nome_arquivo_pdf, nome_a_buscar, diretorio_saida):
-    ...
 
 # Diretório onde os arquivos PDF estão e nome a buscar
 
