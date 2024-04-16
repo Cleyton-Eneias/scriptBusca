@@ -37,7 +37,7 @@ diretorio_pdfs = input("Diretório dos arquivos: ")
 nome_a_buscar = input("Matricula ou Nome: ")
 ano_inicio = int(input("Início: "))
 ano_fim = int(input("Fim: "))
-diretorio_saida = r"C:\Users\Admin\Desktop\PUSH FICHA FINACEIRAS\saida"
+diretorio_saida = r"Caminho/De/Saida"
 
 # Loop para buscar nos arquivos PDF de cada ano no intervalo especificado
 for ano in range(ano_inicio, ano_fim+1):
