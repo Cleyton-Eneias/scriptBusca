@@ -40,9 +40,11 @@ ano_fim = int(input("Fim: "))
 diretorio_saida = r"C:\Users\Admin\Desktop\PUSH FICHA FINACEIRAS\saida"
 ```
 # Loop para buscar nos arquivos PDF de cada ano no intervalo especificado
+```
 for ano in range(ano_inicio, ano_fim+1):
     nome_arquivo_pdf = os.path.join(diretorio_pdfs, f"{ano}.pdf")
     buscar_e_salvar_pagina_com_nome(nome_arquivo_pdf, nome_a_buscar, diretorio_saida)
+```
 Notas
 Certifique-se de que os arquivos PDF estão localizados no diretório especificado e que você tem permissão de leitura e escrita nesse diretório.
 Os arquivos PDF de entrada devem estar formatados de forma que o texto seja extraível corretamente.
