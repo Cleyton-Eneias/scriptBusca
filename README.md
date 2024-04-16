@@ -1,10 +1,10 @@
 # Documentação do Script de Busca em Arquivos PDF
 Este script Python foi desenvolvido para buscar um nome específico em arquivos PDF dentro de um diretório especificado e salvar as páginas contendo esse nome em novos arquivos PDF.
 
-Requisitos
-Python 3.x 
-Biblioteca PyPDF2
-Instalação das Dependências
+Requisitos <br>
+Python 3.x <br>
+Biblioteca PyPDF2 <br>
+Instalação das Dependências <br>
 
 
 Para instalar a biblioteca PyPDF2, execute o seguinte comando no terminal:
